@@ -74,8 +74,10 @@ header {
   color: gray;
   width: 207px;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden scroll; */
 }
+
+
 .left-sec h2:hover {
   background-color: rgba(107, 107, 107, 0%);
 }
@@ -95,6 +97,7 @@ header {
   display: flex;
   padding-left: 30px;
   align-items: center;
+  cursor: pointer;
 }
 .column h2 {
   margin-left: 10px;
@@ -210,4 +213,36 @@ div .grid-container div h3 {
 
 #home-tab h2 {
   font-weight: 600;
+}
+
+.top-sec button {
+  cursor: pointer;
+}
+
+.movie_title {
+  cursor: pointer;
+}
+
+.feed-icon {
+  cursor: pointer;
+}
+
+.youtube-logo {
+  cursor: pointer;
+}
+
+.search-btn {
+  cursor: pointer;
+}
+
+.mic-icon {
+  cursor: pointer;
+}
+
+.style-scope.yt-icon {
+  cursor: pointer;
+}
+
+.right-icons {
+  cursor: pointer;
 }
